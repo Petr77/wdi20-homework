@@ -28,7 +28,7 @@ var planTrip = function(startLine, startStation, endLine, endStation) {
 
        if(startIndex1 > endIndex1){
           var firstTrip = stations1.slice(endIndex1+1, startIndex1).reverse();
-     }
+        }
 
   }else{
 

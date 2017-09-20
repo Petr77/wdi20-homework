@@ -24,7 +24,7 @@ var moveCatLeft = function() {
 		moveForward = window.setInterval(moveCatRight, 100);
 	}
 };
-var moveBack = window.setInterval(moveCatLeft, 100);
+// var moveBack = window.setInterval(moveCatLeft, 100);
 
 var moveForward = window.setInterval(moveCatRight, 100);
 };

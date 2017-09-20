@@ -19,6 +19,7 @@ p {
 footer{
   text-align: center;
   color: red;
+  margin-top: 20px;
 }
 a {
   margin-left: 22%;
@@ -33,24 +34,19 @@ body {
 }
 .container {
   background-color: white;
-  margin: 20px 100px;
+  margin: 10px 100px;
   position: absolute;
-  width: 80%;
-  height:60%;
+  padding: auto;
 }
 
-#imgperl {
-  /*display: block;*/
-  /*text-align: center;*/
-  /*margin: auto;*/
-  /*margin-right: auto;*/
+.trivia > h2,p {
+  text-align: center;
 }
 
 #imgperl > img{
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
 }
-
 
 #larry {
   float: right;
@@ -74,4 +70,11 @@ iframe {
 
 h2 {
   padding: 10px 20px 10px 20px;
+}
+
+#index_p {
+  font-size: 30px;
+  font-family: Orbitron, sans-serif;
+  text-align: center;
+  text-shadow: 4px 4px 8px;
 }
